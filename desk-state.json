@@ -1,0 +1,210 @@
+{
+  "mode": "PAPER",
+  "updatedAt": "2026-09-25T06:58:57+02:00",
+  "equityUsd": 203.61,
+  "startingEquityUsd": 200.0,
+  "dayPnlUsd": 3.61,
+  "dayHaltPct": -5,
+  "maxRiskPct": 5,
+  "nextLeadId": "LEAD-040",
+  "stats": {
+    "fills": 6,
+    "open": 4,
+    "closedFull": 2,
+    "partialWins": 1,
+    "losses": 2,
+    "winRateApprox": 0.33
+  },
+  "openPositions": [
+    {
+      "leadId": "LEAD-019",
+      "token": "UTILITY",
+      "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
+      "sizeUsd": 6.7,
+      "entryMark": "MC ~$81,000 → now ~$154k (+90%)",
+      "sl": "trail lock +15%",
+      "tpLadder": [
+        "TP2 +100%",
+        "TP3 +200% on remain"
+      ],
+      "invalidation": "TP1 33% scaled @ +90%",
+      "openedAt": "2026-09-24T18:58:00+02:00",
+      "status": "OPEN",
+      "unrealizedPnlUsd": 6.03
+    },
+    {
+      "leadId": "LEAD-026",
+      "token": "PillCrew",
+      "mint": "GxWqJbWPxMseev7WXYNPLEG8K59v2fAhJ5m5o7Yepump",
+      "sizeUsd": 10.0,
+      "entryMark": "MC ~$12,000",
+      "sl": "−20% MC",
+      "tpLadder": [
+        "TP +40",
+        "+80",
+        "+150"
+      ],
+      "invalidation": "trail tight",
+      "openedAt": "2026-09-24T19:25:00+02:00",
+      "status": "OPEN",
+      "unrealizedPnlUsd": 0.0
+    },
+    {
+      "leadId": "LEAD-027",
+      "token": "Parlay Trade",
+      "mint": "6FDw6jns8g7czuRucp5993RBNRPvqtMfv5Jv3hjnpump",
+      "sizeUsd": 10.0,
+      "entryMark": "MC ~$24,000",
+      "sl": "−30% MC",
+      "tpLadder": [
+        "TP +50",
+        "+100",
+        "+200"
+      ],
+      "invalidation": "standard",
+      "openedAt": "2026-09-24T19:35:00+02:00",
+      "status": "OPEN",
+      "unrealizedPnlUsd": 0.0
+    },
+    {
+      "leadId": "LEAD-031",
+      "token": "VortexDeployer",
+      "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
+      "sizeUsd": 10.0,
+      "entryMark": "MC ~$38,000",
+      "sl": "−30% MC",
+      "tpLadder": [
+        "TP +50",
+        "+100",
+        "+200"
+      ],
+      "invalidation": "mark pending (API)",
+      "openedAt": "2026-09-24T19:54:00+02:00",
+      "status": "OPEN",
+      "unrealizedPnlUsd": 0.0
+    }
+  ],
+  "recentLeads": [
+    {
+      "leadId": "LEAD-027",
+      "stage": "paper-filled",
+      "mint": "6FDw6jns8g7czuRucp5993RBNRPvqtMfv5Jv3hjnpump",
+      "token": "Parlay Trade",
+      "ts": "2026-09-24T19:35:00+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-031",
+      "stage": "paper-filled",
+      "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
+      "token": "VortexDeployer",
+      "ts": "2026-09-24T19:54:00+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-035",
+      "stage": "scanned",
+      "mint": "GsqikEkGkEo9dMTKQBcSn4HdAQtn4hvtLxqdDW7xpump",
+      "token": "I’ll buy later",
+      "ts": "2026-09-24T20:22:15+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-036",
+      "stage": "scanned",
+      "mint": "6f1zVLoGUwWn4Yj6a9MqNkeQC6DaGiGii3rNnnUApump",
+      "token": "CYBER",
+      "ts": "2026-09-24T20:22:15+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-035",
+      "stage": "killed",
+      "mint": "GsqikEkGkEo9dMTKQBcSn4HdAQtn4hvtLxqdDW7xpump",
+      "token": "LEAD-035",
+      "ts": "2026-09-24T20:25:43+02:00",
+      "note": "âge~1.4h + X-only (pas de web) — barre mature/X+web non tenue"
+    },
+    {
+      "leadId": "LEAD-036",
+      "stage": "killed",
+      "mint": "6f1zVLoGUwWn4Yj6a9MqNkeQC6DaGiGii3rNnnUApump",
+      "token": "LEAD-036",
+      "ts": "2026-09-24T20:25:43+02:00",
+      "note": "âge~2.6h + X status-only (pas de profil) — social incomplet"
+    },
+    {
+      "leadId": "LEAD-022",
+      "stage": "paper-closed",
+      "mint": "D6FbvxB8PtC14ECK3tFUNtshSzEzivw3pcbuemKgpump",
+      "token": "LEAD-022",
+      "ts": "2026-09-24T20:25:55+02:00",
+      "note": "SL hit (-30%)"
+    },
+    {
+      "leadId": "LEAD-023",
+      "stage": "paper-closed",
+      "mint": "A66FqchgzB8PCv9smWYvDctB4tWBefoEMnCecLvfpump",
+      "token": "LEAD-023",
+      "ts": "2026-09-24T20:26:41+02:00",
+      "note": "SL hit (-30%)"
+    },
+    {
+      "leadId": "LEAD-037",
+      "stage": "killed",
+      "mint": "DJWZAheJWmtTd81WrDjLdsMK19NZo9WsJMevCx5ypump",
+      "token": "LEAD-037",
+      "ts": "2026-09-24T20:56:12+02:00",
+      "note": "top wallet hors curve ~19% du float (Scout 10.8% était /supply) — barre <15% float"
+    },
+    {
+      "leadId": "LEAD-038",
+      "stage": "killed",
+      "mint": "6TfTBpkgRX5kzb1qbtijV1nZVTfzfbmbXE1hPsFrpump",
+      "token": "LEAD-038",
+      "ts": "2026-09-24T20:56:12+02:00",
+      "note": "âge~1.3h + juste gradué MC~$111k — doute dump post-grad → KILL"
+    },
+    {
+      "leadId": "LEAD-037",
+      "stage": "scanned",
+      "mint": "6TfTBpkgRX5kzb1qbtijV1nZVTfzfbmbXE1hPsFrpump",
+      "token": "Agrippa",
+      "ts": "2026-09-24T20:57:18+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-038",
+      "stage": "scanned",
+      "mint": "CQUHVJixpaoxRNz8v3ocs8JvT4to4uHoUj275abYpump",
+      "token": "musewifhat",
+      "ts": "2026-09-24T20:57:18+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-019",
+      "stage": "paper-closed",
+      "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
+      "token": "LEAD-019",
+      "ts": "2026-09-24T21:45:26+02:00",
+      "note": "TP1 scale 33% (armed +50%, filled at +90% mark)"
+    },
+    {
+      "leadId": "LEAD-039",
+      "stage": "scanned",
+      "mint": "HQqwqHFY5h9wMx1aFGu84KQS8oAFdE4DnyAWq4tjpump",
+      "token": "Real World Assets",
+      "ts": "2026-09-24T23:48:03+02:00",
+      "note": ""
+    },
+    {
+      "leadId": "LEAD-039",
+      "stage": "killed",
+      "mint": "HQqwqHFY5h9wMx1aFGu84KQS8oAFdE4DnyAWq4tjpump",
+      "token": "LEAD-039",
+      "ts": "2026-09-24T23:50:19+02:00",
+      "note": "âge~1.1h + narrative RWA générique (lookalike) + realSOL juste au plancher"
+    }
+  ],
+  "notesFr": "Resync 25/09 matin (Paris) depuis PAPER_BOOK.md + JOURNAL.jsonl. PAPER only — pas de wallet."
+}
