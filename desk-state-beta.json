@@ -4,7 +4,7 @@
   "equityUsd": 200.0,
   "startingEquityUsd": 200.0,
   "dayPnlUsd": 0.0,
-  "openCount": 1,
+  "openCount": 3,
   "openCap": 4,
   "fillsPause": false,
   "fillsPauseAtOpen": 4,
@@ -12,7 +12,7 @@
   "haltOk": true,
   "dayHaltUsd": -10.0,
   "maxRiskPct": 5,
-  "nextLeadId": "B-LEAD-009",
+  "nextLeadId": "B-LEAD-012",
   "openPositions": [
     {
       "leadId": "B-LEAD-001",
@@ -20,10 +20,10 @@
       "mint": "EEpng77ZPn9FbgbT4xsRjwuxNCcMBYq3HTwEscyTpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 304552.0,
-      "markMcUsd": 302353.0,
-      "markPct": -0.72,
-      "unrealizedPnlUsd": -0.072,
-      "priceUsd": 0.000302307967,
+      "markMcUsd": 305401.0,
+      "markPct": 0.28,
+      "unrealizedPnlUsd": 0.0279,
+      "priceUsd": 0.0003054,
       "sl": "\u221230% MC",
       "tpLadder": [
         "TP +50",
@@ -34,37 +34,85 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T20:09:40+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$305k \u2192 ~$302k (-0.7%)",
+      "entryMark": "MC ~$304.55k \u2192 ~$305.40k (+0.3%)",
       "peakMcUsd": 314987.0,
-      "lastMarkAt": "2026-09-26T20:55+02:00",
+      "lastMarkAt": "2026-09-26T22:18+02:00",
       "tpHits": [],
-      "slMcUsd": 213186.4
+      "slMcUsd": 213186.4,
+      "source": "dexscreener-api"
+    },
+    {
+      "leadId": "B-LEAD-007",
+      "token": "WOJAK",
+      "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
+      "sizeUsd": 10.0,
+      "entryMcUsd": 2491436.0,
+      "markMcUsd": 2504190.0,
+      "markPct": 0.51,
+      "unrealizedPnlUsd": 0.0512,
+      "priceUsd": 0.002504,
+      "sl": "\u221230% MC",
+      "tpLadder": [
+        "TP +50",
+        "+100",
+        "+200"
+      ],
+      "trailing": "after TP1",
+      "invalidation": "standard",
+      "openedAt": "2026-09-26T21:06:51+02:00",
+      "status": "OPEN",
+      "entryMark": "MC ~$2.49M \u2192 ~$2.50M (+0.5%)",
+      "peakMcUsd": 2594131.0,
+      "lastMarkAt": "2026-09-26T22:18+02:00",
+      "tpHits": [],
+      "slMcUsd": 1744005.2,
+      "source": "dexscreener-api"
+    },
+    {
+      "leadId": "B-LEAD-011",
+      "token": "TROLL",
+      "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+      "sizeUsd": 10.0,
+      "entryMcUsd": 49105796.34620464,
+      "markMcUsd": 49725934.0,
+      "markPct": 1.26,
+      "unrealizedPnlUsd": 0.1263,
+      "priceUsd": 0.04978,
+      "sl": "\u221230% MC",
+      "tpLadder": [
+        "TP +50",
+        "+100",
+        "+200"
+      ],
+      "trailing": "after TP1",
+      "invalidation": "standard",
+      "openedAt": "2026-09-26T21:29:40+02:00",
+      "status": "OPEN",
+      "entryMark": "MC ~$49.11M \u2192 ~$49.73M (+1.3%)",
+      "peakMcUsd": 49734011.0,
+      "lastMarkAt": "2026-09-26T22:18+02:00",
+      "tpHits": [],
+      "slMcUsd": 34374057.44,
+      "source": "dexscreener-api"
     }
   ],
   "stats": {
-    "fills": 1,
-    "open": 1,
+    "fills": 3,
+    "open": 3,
     "closedFull": 0,
     "wins": 0,
     "losses": 0
   },
-  "updatedAt": "2026-09-26T20:55+02:00",
+  "updatedAt": "2026-09-26T22:18+02:00",
   "pipeline": {
     "filled": [
-      "B-LEAD-001"
+      "B-LEAD-001",
+      "B-LEAD-007",
+      "B-LEAD-011"
     ],
-    "killed_turbo": [
-      "B-LEAD-006",
-      "B-LEAD-008"
-    ],
-    "cleared": [
-      "B-LEAD-007"
-    ],
-    "greenlit": [
-      "B-LEAD-007"
-    ],
-    "awaitingFill": [
-      "B-LEAD-007"
-    ]
-  }
+    "cleared": [],
+    "greenlit": [],
+    "awaitingFill": []
+  },
+  "notesFr": "Mark 5m: open 3/4; B-LEAD-001 HeeHaw +0.3% HOLD @ MC ~$305.40k; B-LEAD-007 WOJAK +0.5% HOLD @ MC ~$2.50M; B-LEAD-011 TROLL +1.3% HOLD @ MC ~$49.73M; day +0.00 halt OK"
 }
