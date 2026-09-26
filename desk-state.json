@@ -1,9 +1,9 @@
 {
   "mode": "PAPER",
-  "updatedAt": "2026-09-26T20:57:03+02:00",
-  "equityUsd": 210.01,
+  "updatedAt": "2026-09-26T21:25:56+02:00",
+  "equityUsd": 212.0,
   "startingEquityUsd": 200.0,
-  "dayPnlUsd": -3.86,
+  "dayPnlUsd": -1.87,
   "dayHaltPct": -5,
   "maxRiskPct": 5,
   "nextLeadId": "LEAD-043",
@@ -12,9 +12,9 @@
     "fills": 8,
     "open": 2,
     "closedFull": 6,
-    "partialWins": 4,
+    "partialWins": 5,
     "losses": 4,
-    "winRateApprox": 0.5
+    "winRateApprox": 0.56
   },
   "openPositions": [
     {
@@ -23,7 +23,7 @@
       "sizeUsd": 10.0,
       "entryMcUsd": 38000.0,
       "markMcUsd": 39520.9,
-      "sl": "\u221230% MC",
+      "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
         "+100",
@@ -35,30 +35,89 @@
       "leadId": "LEAD-031",
       "markPct": 4.0,
       "unrealizedPnlUsd": 0.4,
-      "entryMark": "MC \u2192 +4.0% (Exit mark)"
+      "entryMark": "MC → +4.0% (Exit mark)"
     },
     {
       "token": "Zepto",
       "mint": "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump",
-      "sizeUsd": 10.0,
+      "sizeUsd": 6.7,
       "entryMcUsd": 13900.0,
-      "markMcUsd": 17679.6,
-      "sl": "\u221230% MC",
+      "markMcUsd": 22276.14,
+      "sl": "−30% MC",
       "tpLadder": [
-        "TP +50",
-        "+100",
+        "TP +100",
         "+200"
       ],
-      "invalidation": "recovered off \u22129%",
+      "invalidation": "TP1 done; trail after TP1; next TP2 +100%",
       "openedAt": "2026-09-25T12:20:00+02:00",
       "status": "OPEN",
       "leadId": "LEAD-041",
-      "markPct": 27.2,
-      "unrealizedPnlUsd": 2.72,
-      "entryMark": "MC \u2192 +27.2% (Exit mark)"
+      "markPct": 60.3,
+      "unrealizedPnlUsd": 4.04,
+      "entryMark": "MC → +60.3% after TP1 (Exit mark)",
+      "partialTaken": [
+        "TP1"
+      ],
+      "peakMcUsd": 22276.14
     }
   ],
   "recentLeads": [
+    {
+      "leadId": "LEAD-041",
+      "stage": "paper-closed",
+      "mint": "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump",
+      "token": "Zepto",
+      "ts": "2026-09-26T21:25:56+02:00",
+      "note": "TP1 scale 33% @ MC ~$22.3k (+60.3%); PnL +1.99; remain 6.7; open 2; equity 212.00 day -1.87"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T21:25:56+02:00",
+      "note": "5m mark Alpha 21:25: **041 TP1** +1.99 @ +60.3% MC ~$22.3k (scale 33%, remain 6.7); 031 +4.0% HOLD; open 2; equity 212.00 day -1.87 halt OK; pause LIFTED; CHANNEL POST"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T21:21:11+02:00",
+      "note": "5m mark Alpha 21:21: 031 +4.0% HOLD; 041 +43.3% HOLD watch TP1 (~$20.9k); no closes; open 2; equity 210.01 day -3.86 halt OK; pause LIFTED; SILENT (no post)"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T21:14:02+02:00",
+      "note": "5m mark Alpha 21:14: 031 +4.0% HOLD; 041 +45.7% HOLD watch TP1 (~$20.9k); no closes; open 2; equity 210.01 day -3.86 halt OK; pause LIFTED; SILENT (no post)"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T21:11:25+02:00",
+      "note": "5m mark Alpha 21:10: 031 +4.0% HOLD; 041 +36.8% HOLD; open 2; equity 210.63 day -3.24 halt OK; pause LIFTED; SILENT (no post)"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T21:08:32+02:00",
+      "note": "5m mark Alpha 21:08: 031 +4.0% HOLD; 041 +33.7% HOLD; open 2; equity 210.63 day -3.24 halt OK; pause LIFTED; SILENT (no post)"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T21:04:16+02:00",
+      "note": "5m mark Alpha: 031 +4.0% HOLD; 041 +27.5% HOLD; no closes; open 2; equity 210.01 day -3.86 halt OK; pause LIFTED; SILENT (no post)"
+    },
     {
       "leadId": "EXIT",
       "stage": "mark",
@@ -66,49 +125,9 @@
       "token": "",
       "ts": "2026-09-26T20:57:03+02:00",
       "note": "5m mark Alpha: 031 +4.0% HOLD; 041 +27.2% HOLD; no closes; open 2; equity 210.01 day -3.86 halt OK; pause LIFTED; SILENT (no post)"
-    },
-    {
-      "leadId": "LEAD-042",
-      "stage": "paper-closed",
-      "mint": "3w82rgQsoyXEbYLuQK31BbDS7PMfGzTDLVCFFZyypump",
-      "token": "Rill Atlas",
-      "ts": "2026-09-26T20:48:13+02:00",
-      "note": "SL \u221230% hit @ MC ~$9.8k (-30.1%); PnL -3.01; open 2; equity 210.01 day -3.86"
-    },
-    {
-      "leadId": "FLOOR",
-      "stage": "lane-rename",
-      "mint": "",
-      "token": "Alpha",
-      "ts": "2026-09-26T20:07:09+02:00",
-      "note": "Renamed Memecoin Desk Alpha; Beta sister lane separate"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:56:02+02:00",
-      "note": "5m mark 19:56: 031 +3.3% HOLD; 041 +11.4% HOLD; 042 -28.8% watch SL \u221230% (MC ~$10.0k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:50:04+02:00",
-      "note": "5m mark 19:50: 031 +3% HOLD; 041 +12% HOLD; 042 -29.0% watch SL \u221230% (MC ~$9.9k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
-    },
-    {
-      "leadId": "LEAD-019",
-      "stage": "paper-closed",
-      "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
-      "token": "UTILITY",
-      "ts": "2026-09-26T19:47:34+02:00",
-      "note": "TP3 remain +USD 6.83 @ +200.8%; open 3; equity 213.32 day \u22120.55"
     }
   ],
-  "notesFr": "FLOOR Alpha SILENT mark: 031 +4.0% HOLD; 041 +27.2% HOLD; open 2 equity 210.01 day -3.86 halt OK; pause LIFTED; next LEAD-043. PAPER.",
+  "notesFr": "FLOOR Alpha: 041 TP1 +1.99 @ +60.3%; 031 +4.0% HOLD; open 2 equity 212.00 day -1.87 halt OK; pause LIFTED; next LEAD-043. PAPER.",
   "maxOpenPositions": 8,
   "fillsPauseAtOpen": 8,
   "fillsLiftAtOpen": 7,
