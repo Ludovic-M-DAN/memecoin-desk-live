@@ -1,75 +1,29 @@
 {
   "mode": "PAPER",
-  "updatedAt": "2026-09-25T23:00:26+02:00",
-  "equityUsd": 213.87,
+  "updatedAt": "2026-09-26T19:50:04+02:00",
+  "equityUsd": 213.02,
   "startingEquityUsd": 200.0,
-  "dayPnlUsd": 10.26,
+  "dayPnlUsd": -0.85,
   "dayHaltPct": -5,
   "maxRiskPct": 5,
-  "nextLeadId": "LEAD-042",
-  "fillsPaused": true,
+  "nextLeadId": "LEAD-043",
+  "fillsPaused": false,
   "stats": {
-    "fills": 7,
-    "open": 5,
-    "closedFull": 2,
-    "partialWins": 3,
-    "losses": 2,
-    "winRateApprox": 0.6
+    "fills": 8,
+    "open": 3,
+    "closedFull": 5,
+    "partialWins": 4,
+    "losses": 3,
+    "winRateApprox": 0.57
   },
   "openPositions": [
-    {
-      "leadId": "LEAD-019",
-      "token": "UTILITY",
-      "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
-      "sizeUsd": 3.4,
-      "entryMark": "MC ~$81k → ~$170k (+110%)",
-      "sl": "trail lock +15%",
-      "tpLadder": [
-        "TP3 +200% on remain"
-      ],
-      "invalidation": "TP1@+90% + TP2@+110% scaled",
-      "openedAt": "2026-09-24T18:58:00+02:00",
-      "status": "OPEN",
-      "unrealizedPnlUsd": 3.74
-    },
-    {
-      "leadId": "LEAD-026",
-      "token": "PillCrew",
-      "mint": "GxWqJbWPxMseev7WXYNPLEG8K59v2fAhJ5m5o7Yepump",
-      "sizeUsd": 10.0,
-      "entryMark": "MC ~$12k → ~$11.5k (−4%)",
-      "sl": "−20% MC",
-      "tpLadder": [
-        "TP +40",
-        "+80",
-        "+150"
-      ],
-      "invalidation": "trail tight",
-      "openedAt": "2026-09-24T19:25:00+02:00",
-      "status": "OPEN",
-      "unrealizedPnlUsd": -0.4
-    },
-    {
-      "leadId": "LEAD-027",
-      "token": "Parlay Trade",
-      "mint": "6FDw6jns8g7czuRucp5993RBNRPvqtMfv5Jv3hjnpump",
-      "sizeUsd": 3.4,
-      "entryMark": "MC ~$24k → ~$48.1k (+100.5%)",
-      "sl": "trail lock +15%",
-      "tpLadder": [
-        "TP3 +200% on remain"
-      ],
-      "invalidation": "TP1+TP2 @ +100.5%",
-      "openedAt": "2026-09-24T19:35:00+02:00",
-      "status": "OPEN",
-      "unrealizedPnlUsd": 3.42
-    },
     {
       "leadId": "LEAD-031",
       "token": "VortexDeployer",
       "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
       "sizeUsd": 10.0,
-      "entryMark": "MC ~$38k → ~$38.9k (+2%)",
+      "entryMcUsd": 38000.0,
+      "markMcUsd": 39271.7,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -79,59 +33,135 @@
       "invalidation": "standard",
       "openedAt": "2026-09-24T19:54:00+02:00",
       "status": "OPEN",
-      "unrealizedPnlUsd": 0.2
+      "markPct": 3.3,
+      "unrealizedPnlUsd": 0.33,
+      "entryMark": "MC → +3% (Exit mark)"
     },
     {
       "leadId": "LEAD-041",
       "token": "Zepto",
       "mint": "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump",
       "sizeUsd": 10.0,
-      "entryMark": "MC ~$13.9k → ~$11.5k (−18%)",
+      "entryMcUsd": 13900.0,
+      "markMcUsd": 15506.8,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
         "+100",
         "+200"
       ],
-      "invalidation": "watch SL",
+      "invalidation": "recovered off −9%",
       "openedAt": "2026-09-25T12:20:00+02:00",
       "status": "OPEN",
-      "unrealizedPnlUsd": -1.8
+      "markPct": 11.6,
+      "unrealizedPnlUsd": 1.16,
+      "entryMark": "MC → +12% (Exit mark)"
+    },
+    {
+      "leadId": "LEAD-042",
+      "token": "Rill Atlas",
+      "mint": "3w82rgQsoyXEbYLuQK31BbDS7PMfGzTDLVCFFZyypump",
+      "sizeUsd": 10.0,
+      "entryMcUsd": 14000.0,
+      "markMcUsd": 9944.0,
+      "sl": "−30% MC",
+      "tpLadder": [
+        "TP +50",
+        "+100",
+        "+200"
+      ],
+      "invalidation": "soft — watch SL (-29.0%)",
+      "openedAt": "2026-09-26T15:25:00+02:00",
+      "status": "OPEN",
+      "markPct": -29.0,
+      "unrealizedPnlUsd": -2.9,
+      "entryMark": "MC → -29% watch SL −30"
     }
   ],
   "recentLeads": [
     {
-      "leadId": "LEAD-041",
-      "stage": "paper-filled",
-      "mint": "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump",
-      "token": "Zepto",
-      "ts": "2026-09-25T12:20:00+02:00",
-      "note": "size USD 10; fills paused after (open 5)"
-    },
-    {
-      "leadId": "LEAD-027",
-      "stage": "paper-closed",
-      "mint": "6FDw6jns8g7czuRucp5993RBNRPvqtMfv5Jv3hjnpump",
-      "token": "Parlay Trade",
-      "ts": "2026-09-25T15:24:00+02:00",
-      "note": "TP1+TP2 scale +6.63; remain 3.40 trail +15%"
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:50:04+02:00",
+      "note": "5m mark 19:50: 031 +3% HOLD; 041 +12% HOLD; 042 -29.0% watch SL −30% (MC ~$9.9k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
     },
     {
       "leadId": "LEAD-019",
       "stage": "paper-closed",
       "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
       "token": "UTILITY",
-      "ts": "2026-09-25T17:53:00+02:00",
-      "note": "TP2 scale +3.63; remain 3.40 trail +15%"
+      "ts": "2026-09-26T19:47:34+02:00",
+      "note": "TP3 remain +USD 6.83 @ +200.8%; open 3; equity 213.32 day −0.55"
     },
     {
-      "leadId": "LEAD-042",
-      "stage": "scanned",
+      "leadId": "LEAD-019",
+      "stage": "paper-closed",
+      "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
+      "token": "UTILITY",
+      "ts": "2026-09-26T19:47:11+02:00",
+      "note": "TP3 remain +201% PnL +USD 6.84 @ MC ~$244.0k; open 3; equity 213.33 day -0.54"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
       "mint": "",
-      "token": "DRY streak",
-      "ts": "2026-09-25T23:00:26+02:00",
-      "note": "dry LEAD-042 all evening; bar qualité OK; no force fills"
+      "token": "",
+      "ts": "2026-09-26T19:47:11+02:00",
+      "note": "5m mark: LEAD-019 TP3 paper-close +201% remain PnL +6.84 @ MC ~$244.0k; 031 +3% HOLD; 041 +11% HOLD; 042 -26% watch SL −30%; open 3; equity 213.33 day -0.54 halt OK; pause LIFTED"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:40:21+02:00",
+      "note": "5m mark: 019 +199% trail OK (peak 242.5k floor 206.2k); 031 +3% HOLD; 041 +11% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK; pause LIFTED"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:39:45+02:00",
+      "note": "5m mark: 019 +196% trail OK (peak 239.5k floor 203.6k); 031 +3% HOLD; 041 +11% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK; pause LIFTED"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:37:39+02:00",
+      "note": "5m mark: 019 +196% trail OK (peak 239.5k floor 203.6k); 031 +3% HOLD; 041 +11% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK; pause LIFTED"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:28:26+02:00",
+      "note": "5m mark: 019 +184% trail OK (peak 234.5k floor 199.3k); 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:25:05+02:00",
+      "note": "5m mark: 019 +190% trail OK (peak 234.5k floor 199.3k); 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:18:36+02:00",
+      "note": "5m mark: 019 +161% HOLD; 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
     }
   ],
-  "notesFr": "Resync 25/09 soir (Paris) depuis PAPER_BOOK.md. Equity 213.87 / day +10.26 / open 5 / fills paused / next LEAD-042. PAPER only — pas de wallet."
+  "notesFr": "Mark 19:50 PT: open 3 (031 +3% / 041 +12% / 042 -29.0% watch SL). Equity 213.02 day -0.85 halt OK. Pause LIFTED (cap 8). Next LEAD-043. PAPER only.",
+  "maxOpenPositions": 8,
+  "fillsPauseAtOpen": 8,
+  "fillsLiftAtOpen": 7
 }
