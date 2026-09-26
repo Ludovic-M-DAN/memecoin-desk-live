@@ -1,6 +1,6 @@
 {
   "mode": "PAPER",
-  "updatedAt": "2026-09-26T19:50:04+02:00",
+  "updatedAt": "2026-09-26T20:04:12+02:00",
   "equityUsd": 213.02,
   "startingEquityUsd": 200.0,
   "dayPnlUsd": -0.85,
@@ -18,12 +18,11 @@
   },
   "openPositions": [
     {
-      "leadId": "LEAD-031",
       "token": "VortexDeployer",
       "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 38000.0,
-      "markMcUsd": 39271.7,
+      "markMcUsd": 39271.74,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -33,17 +32,17 @@
       "invalidation": "standard",
       "openedAt": "2026-09-24T19:54:00+02:00",
       "status": "OPEN",
+      "leadId": "LEAD-031",
       "markPct": 3.3,
       "unrealizedPnlUsd": 0.33,
       "entryMark": "MC → +3% (Exit mark)"
     },
     {
-      "leadId": "LEAD-041",
       "token": "Zepto",
       "mint": "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 13900.0,
-      "markMcUsd": 15506.8,
+      "markMcUsd": 15489.52,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -53,32 +52,49 @@
       "invalidation": "recovered off −9%",
       "openedAt": "2026-09-25T12:20:00+02:00",
       "status": "OPEN",
-      "markPct": 11.6,
-      "unrealizedPnlUsd": 1.16,
-      "entryMark": "MC → +12% (Exit mark)"
+      "leadId": "LEAD-041",
+      "markPct": 11.4,
+      "unrealizedPnlUsd": 1.14,
+      "entryMark": "MC → +11% (Exit mark)"
     },
     {
-      "leadId": "LEAD-042",
       "token": "Rill Atlas",
       "mint": "3w82rgQsoyXEbYLuQK31BbDS7PMfGzTDLVCFFZyypump",
       "sizeUsd": 10.0,
       "entryMcUsd": 14000.0,
-      "markMcUsd": 9944.0,
+      "markMcUsd": 9968.6,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
         "+100",
         "+200"
       ],
-      "invalidation": "soft — watch SL (-29.0%)",
+      "invalidation": "soft — watch SL (-28.8%)",
       "openedAt": "2026-09-26T15:25:00+02:00",
       "status": "OPEN",
-      "markPct": -29.0,
-      "unrealizedPnlUsd": -2.9,
+      "leadId": "LEAD-042",
+      "markPct": -28.8,
+      "unrealizedPnlUsd": -2.88,
       "entryMark": "MC → -29% watch SL −30"
     }
   ],
   "recentLeads": [
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T20:04:12+02:00",
+      "note": "5m mark 20:04: 031 +3.3% HOLD; 041 +11.4% HOLD; 042 -28.8% watch SL −30% (MC ~$10.0k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:56:02+02:00",
+      "note": "5m mark 19:56: 031 +3.3% HOLD; 041 +11.4% HOLD; 042 -28.8% watch SL −30% (MC ~$10.0k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
+    },
     {
       "leadId": "EXIT",
       "stage": "mark",
@@ -160,7 +176,7 @@
       "note": "5m mark: 019 +161% HOLD; 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
     }
   ],
-  "notesFr": "Mark 19:50 PT: open 3 (031 +3% / 041 +12% / 042 -29.0% watch SL). Equity 213.02 day -0.85 halt OK. Pause LIFTED (cap 8). Next LEAD-043. PAPER only.",
+  "notesFr": "Mark 20:04 PT: open 3 (031 +3.3% / 041 +11.4% / 042 -28.8% watch SL). Equity 213.02 day -0.85 halt OK. Pause LIFTED (cap 8). Next LEAD-043. PAPER only.",
   "maxOpenPositions": 8,
   "fillsPauseAtOpen": 8,
   "fillsLiftAtOpen": 7
