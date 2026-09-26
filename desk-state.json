@@ -1,30 +1,29 @@
 {
   "mode": "PAPER",
-  "updatedAt": "2026-09-26T19:50:04+02:00",
-  "equityUsd": 213.02,
+  "updatedAt": "2026-09-26T20:57:03+02:00",
+  "equityUsd": 210.01,
   "startingEquityUsd": 200.0,
-  "dayPnlUsd": -0.85,
+  "dayPnlUsd": -3.86,
   "dayHaltPct": -5,
   "maxRiskPct": 5,
   "nextLeadId": "LEAD-043",
   "fillsPaused": false,
   "stats": {
     "fills": 8,
-    "open": 3,
-    "closedFull": 5,
+    "open": 2,
+    "closedFull": 6,
     "partialWins": 4,
-    "losses": 3,
-    "winRateApprox": 0.57
+    "losses": 4,
+    "winRateApprox": 0.5
   },
   "openPositions": [
     {
-      "leadId": "LEAD-031",
       "token": "VortexDeployer",
       "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 38000.0,
-      "markMcUsd": 39271.7,
-      "sl": "−30% MC",
+      "markMcUsd": 39520.9,
+      "sl": "\u221230% MC",
       "tpLadder": [
         "TP +50",
         "+100",
@@ -33,49 +32,30 @@
       "invalidation": "standard",
       "openedAt": "2026-09-24T19:54:00+02:00",
       "status": "OPEN",
-      "markPct": 3.3,
-      "unrealizedPnlUsd": 0.33,
-      "entryMark": "MC → +3% (Exit mark)"
+      "leadId": "LEAD-031",
+      "markPct": 4.0,
+      "unrealizedPnlUsd": 0.4,
+      "entryMark": "MC \u2192 +4.0% (Exit mark)"
     },
     {
-      "leadId": "LEAD-041",
       "token": "Zepto",
       "mint": "B2UUdVqppteMFLV6SKHvuhYifiPhixJA4PeAJDWxpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 13900.0,
-      "markMcUsd": 15506.8,
-      "sl": "−30% MC",
+      "markMcUsd": 17679.6,
+      "sl": "\u221230% MC",
       "tpLadder": [
         "TP +50",
         "+100",
         "+200"
       ],
-      "invalidation": "recovered off −9%",
+      "invalidation": "recovered off \u22129%",
       "openedAt": "2026-09-25T12:20:00+02:00",
       "status": "OPEN",
-      "markPct": 11.6,
-      "unrealizedPnlUsd": 1.16,
-      "entryMark": "MC → +12% (Exit mark)"
-    },
-    {
-      "leadId": "LEAD-042",
-      "token": "Rill Atlas",
-      "mint": "3w82rgQsoyXEbYLuQK31BbDS7PMfGzTDLVCFFZyypump",
-      "sizeUsd": 10.0,
-      "entryMcUsd": 14000.0,
-      "markMcUsd": 9944.0,
-      "sl": "−30% MC",
-      "tpLadder": [
-        "TP +50",
-        "+100",
-        "+200"
-      ],
-      "invalidation": "soft — watch SL (-29.0%)",
-      "openedAt": "2026-09-26T15:25:00+02:00",
-      "status": "OPEN",
-      "markPct": -29.0,
-      "unrealizedPnlUsd": -2.9,
-      "entryMark": "MC → -29% watch SL −30"
+      "leadId": "LEAD-041",
+      "markPct": 27.2,
+      "unrealizedPnlUsd": 2.72,
+      "entryMark": "MC \u2192 +27.2% (Exit mark)"
     }
   ],
   "recentLeads": [
@@ -84,8 +64,40 @@
       "stage": "mark",
       "mint": "",
       "token": "",
+      "ts": "2026-09-26T20:57:03+02:00",
+      "note": "5m mark Alpha: 031 +4.0% HOLD; 041 +27.2% HOLD; no closes; open 2; equity 210.01 day -3.86 halt OK; pause LIFTED; SILENT (no post)"
+    },
+    {
+      "leadId": "LEAD-042",
+      "stage": "paper-closed",
+      "mint": "3w82rgQsoyXEbYLuQK31BbDS7PMfGzTDLVCFFZyypump",
+      "token": "Rill Atlas",
+      "ts": "2026-09-26T20:48:13+02:00",
+      "note": "SL \u221230% hit @ MC ~$9.8k (-30.1%); PnL -3.01; open 2; equity 210.01 day -3.86"
+    },
+    {
+      "leadId": "FLOOR",
+      "stage": "lane-rename",
+      "mint": "",
+      "token": "Alpha",
+      "ts": "2026-09-26T20:07:09+02:00",
+      "note": "Renamed Memecoin Desk Alpha; Beta sister lane separate"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
+      "ts": "2026-09-26T19:56:02+02:00",
+      "note": "5m mark 19:56: 031 +3.3% HOLD; 041 +11.4% HOLD; 042 -28.8% watch SL \u221230% (MC ~$10.0k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
+    },
+    {
+      "leadId": "EXIT",
+      "stage": "mark",
+      "mint": "",
+      "token": "",
       "ts": "2026-09-26T19:50:04+02:00",
-      "note": "5m mark 19:50: 031 +3% HOLD; 041 +12% HOLD; 042 -29.0% watch SL −30% (MC ~$9.9k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
+      "note": "5m mark 19:50: 031 +3% HOLD; 041 +12% HOLD; 042 -29.0% watch SL \u221230% (MC ~$9.9k / SL ~$9.8k); open 3; equity 213.02 day -0.85 halt OK; pause LIFTED"
     },
     {
       "leadId": "LEAD-019",
@@ -93,75 +105,13 @@
       "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
       "token": "UTILITY",
       "ts": "2026-09-26T19:47:34+02:00",
-      "note": "TP3 remain +USD 6.83 @ +200.8%; open 3; equity 213.32 day −0.55"
-    },
-    {
-      "leadId": "LEAD-019",
-      "stage": "paper-closed",
-      "mint": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
-      "token": "UTILITY",
-      "ts": "2026-09-26T19:47:11+02:00",
-      "note": "TP3 remain +201% PnL +USD 6.84 @ MC ~$244.0k; open 3; equity 213.33 day -0.54"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:47:11+02:00",
-      "note": "5m mark: LEAD-019 TP3 paper-close +201% remain PnL +6.84 @ MC ~$244.0k; 031 +3% HOLD; 041 +11% HOLD; 042 -26% watch SL −30%; open 3; equity 213.33 day -0.54 halt OK; pause LIFTED"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:40:21+02:00",
-      "note": "5m mark: 019 +199% trail OK (peak 242.5k floor 206.2k); 031 +3% HOLD; 041 +11% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK; pause LIFTED"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:39:45+02:00",
-      "note": "5m mark: 019 +196% trail OK (peak 239.5k floor 203.6k); 031 +3% HOLD; 041 +11% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK; pause LIFTED"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:37:39+02:00",
-      "note": "5m mark: 019 +196% trail OK (peak 239.5k floor 203.6k); 031 +3% HOLD; 041 +11% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK; pause LIFTED"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:28:26+02:00",
-      "note": "5m mark: 019 +184% trail OK (peak 234.5k floor 199.3k); 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:25:05+02:00",
-      "note": "5m mark: 019 +190% trail OK (peak 234.5k floor 199.3k); 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
-    },
-    {
-      "leadId": "EXIT",
-      "stage": "mark",
-      "mint": "",
-      "token": "",
-      "ts": "2026-09-26T19:18:36+02:00",
-      "note": "5m mark: 019 +161% HOLD; 031 +3% HOLD; 041 +7% HOLD; 042 -26% HOLD watch SL −30%; open 4; equity 206.49 day -7.38 halt OK"
+      "note": "TP3 remain +USD 6.83 @ +200.8%; open 3; equity 213.32 day \u22120.55"
     }
   ],
-  "notesFr": "Mark 19:50 PT: open 3 (031 +3% / 041 +12% / 042 -29.0% watch SL). Equity 213.02 day -0.85 halt OK. Pause LIFTED (cap 8). Next LEAD-043. PAPER only.",
+  "notesFr": "FLOOR Alpha SILENT mark: 031 +4.0% HOLD; 041 +27.2% HOLD; open 2 equity 210.01 day -3.86 halt OK; pause LIFTED; next LEAD-043. PAPER.",
   "maxOpenPositions": 8,
   "fillsPauseAtOpen": 8,
-  "fillsLiftAtOpen": 7
+  "fillsLiftAtOpen": 7,
+  "lane": "Alpha",
+  "laneLabel": "Memecoin Desk Alpha"
 }

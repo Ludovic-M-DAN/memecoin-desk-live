@@ -1,0 +1,70 @@
+{
+  "lane": "beta",
+  "mode": "PAPER",
+  "equityUsd": 200.0,
+  "startingEquityUsd": 200.0,
+  "dayPnlUsd": 0.0,
+  "openCount": 1,
+  "openCap": 4,
+  "fillsPause": false,
+  "fillsPauseAtOpen": 4,
+  "fillsLiftAtOpen": 3,
+  "haltOk": true,
+  "dayHaltUsd": -10.0,
+  "maxRiskPct": 5,
+  "nextLeadId": "B-LEAD-009",
+  "openPositions": [
+    {
+      "leadId": "B-LEAD-001",
+      "token": "HeeHaw",
+      "mint": "EEpng77ZPn9FbgbT4xsRjwuxNCcMBYq3HTwEscyTpump",
+      "sizeUsd": 10.0,
+      "entryMcUsd": 304552.0,
+      "markMcUsd": 302353.0,
+      "markPct": -0.72,
+      "unrealizedPnlUsd": -0.072,
+      "priceUsd": 0.000302307967,
+      "sl": "\u221230% MC",
+      "tpLadder": [
+        "TP +50",
+        "+100",
+        "+200"
+      ],
+      "trailing": "after TP1",
+      "invalidation": "standard",
+      "openedAt": "2026-09-26T20:09:40+02:00",
+      "status": "OPEN",
+      "entryMark": "MC ~$305k \u2192 ~$302k (-0.7%)",
+      "peakMcUsd": 314987.0,
+      "lastMarkAt": "2026-09-26T20:55+02:00",
+      "tpHits": [],
+      "slMcUsd": 213186.4
+    }
+  ],
+  "stats": {
+    "fills": 1,
+    "open": 1,
+    "closedFull": 0,
+    "wins": 0,
+    "losses": 0
+  },
+  "updatedAt": "2026-09-26T20:55+02:00",
+  "pipeline": {
+    "filled": [
+      "B-LEAD-001"
+    ],
+    "killed_turbo": [
+      "B-LEAD-006",
+      "B-LEAD-008"
+    ],
+    "cleared": [
+      "B-LEAD-007"
+    ],
+    "greenlit": [
+      "B-LEAD-007"
+    ],
+    "awaitingFill": [
+      "B-LEAD-007"
+    ]
+  }
+}
