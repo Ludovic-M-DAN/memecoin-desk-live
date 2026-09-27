@@ -1,23 +1,23 @@
 {
   "mode": "PAPER",
-  "updatedAt": "2026-09-27T17:18:26+02:00",
-  "equityUsd": 221.49,
+  "updatedAt": "2026-09-27T17:31:29+02:00",
+  "equityUsd": 223.93,
   "startingEquityUsd": 200.0,
-  "dayPnlUsd": 6.63,
+  "dayPnlUsd": 9.07,
   "dayHaltPct": -5,
   "maxRiskPct": 5,
   "nextLeadId": "LEAD-048",
   "fillsPaused": false,
   "stats": {
     "fills": 12,
-    "open": 5,
-    "closedFull": 7,
+    "open": 4,
+    "closedFull": 8,
     "partialWins": 7,
     "losses": 4,
     "winRateApprox": 0.64,
     "wins": 0,
-    "lastMarkNote": "5m mark Alpha 17:18: 031 +3.0% HOLD @ MC ~$39.12k; 043 -15.7% HOLD @ MC ~$9.88k; 045 -1.1% HOLD @ MC ~$13.95k; 046 -2.1% HOLD @ MC ~$19.59k; 047 +124.5% HOLD @ MC ~$44.10k; no closes; open 5; equity 221.49 day +6.63; pause LIFTED; SILENT (no post)",
-    "openCount": 5
+    "lastMarkNote": "5m mark Alpha 17:31: 031 +3.0% HOLD @ MC ~$39.15k; 043 -16.4% HOLD @ MC ~$9.79k; 045 -0.3% HOLD @ MC ~$14.07k; 046 -3.9% HOLD @ MC ~$19.23k; no closes; open 4; equity 223.93 day +9.07; pause LIFTED; SILENT (no post)",
+    "openCount": 4
   },
   "openPositions": [
     {
@@ -25,7 +25,7 @@
       "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 38000.0,
-      "markMcUsd": 39123.93,
+      "markMcUsd": 39152.32445,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -37,22 +37,22 @@
       "status": "OPEN",
       "leadId": "LEAD-031",
       "markPct": 3.0,
-      "unrealizedPnlUsd": 0.2958,
-      "entryMark": "MC ~$38k → ~$39.12k (+3.0%)",
+      "unrealizedPnlUsd": 0.3032,
+      "entryMark": "MC ~$38k → ~$39.15k (+3.0%)",
       "peakMcUsd": 39988.33,
       "slMcUsd": 26600.0,
       "tp1McUsd": 57000.0,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T17:18:26+02:00",
-      "source": "dexscreener-api",
-      "priceUsd": 3.912e-05
+      "lastMarkAt": "2026-09-27T17:31:29+02:00",
+      "source": "geckoterminal-api",
+      "priceUsd": 3.915232445e-05
     },
     {
       "token": "Every Market",
       "mint": "CsMWsYUniqFbzCA4aUc12iEMii8KBaeesFJXTvUtpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 11714.48,
-      "markMcUsd": 9875.0,
+      "markMcUsd": 9793.477123,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -63,17 +63,17 @@
       "openedAt": "2026-09-26T22:55:06+02:00",
       "status": "OPEN",
       "leadId": "LEAD-043",
-      "markPct": -15.7,
-      "unrealizedPnlUsd": -1.5703,
-      "entryMark": "MC ~$11.71k → ~$9.88k (−15.7%)",
+      "markPct": -16.4,
+      "unrealizedPnlUsd": -1.6399,
+      "entryMark": "MC ~$11.71k → ~$9.79k (−16.4%)",
       "symbol": "EVERY",
       "peakMcUsd": 16418.27,
       "slMcUsd": 8200.135999999999,
       "tp1McUsd": 17571.72,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T17:18:26+02:00",
-      "source": "dexscreener-api",
-      "priceUsd": 9.875e-06
+      "lastMarkAt": "2026-09-27T17:31:29+02:00",
+      "source": "geckoterminal-api",
+      "priceUsd": 9.793477123e-06
     },
     {
       "token": "Slips",
@@ -81,7 +81,7 @@
       "mint": "67ZPDUDL29wxQamKs29ESb5e9qTnpQpUkZgjv8qJpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 14110.19,
-      "markMcUsd": 13950.91,
+      "markMcUsd": 14072.06053,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -92,16 +92,16 @@
       "openedAt": "2026-09-27T15:55:34+02:00",
       "status": "OPEN",
       "leadId": "LEAD-045",
-      "markPct": -1.1,
-      "unrealizedPnlUsd": -0.1129,
-      "entryMark": "MC ~$14.11k → ~$13.95k (−1.1%)",
+      "markPct": -0.3,
+      "unrealizedPnlUsd": -0.027,
+      "entryMark": "MC ~$14.11k → ~$14.07k (−0.3%)",
       "peakMcUsd": 16632.73,
       "slMcUsd": 9877.13,
       "tp1McUsd": 21165.28,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T17:18:26+02:00",
-      "source": "dexscreener-api",
-      "priceUsd": 1.395e-05
+      "lastMarkAt": "2026-09-27T17:31:29+02:00",
+      "source": "geckoterminal-api",
+      "priceUsd": 1.407206052849398e-05
     },
     {
       "token": "spawndigi",
@@ -109,7 +109,7 @@
       "mint": "G4zJATx1sgRCp4kMqxd8dnDPtyK6Qqe6a9XHL7avpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 20006.56,
-      "markMcUsd": 19586.82,
+      "markMcUsd": 19233.92,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -120,52 +120,60 @@
       "openedAt": "2026-09-27T16:22:14+02:00",
       "status": "OPEN",
       "leadId": "LEAD-046",
-      "markPct": -2.1,
-      "unrealizedPnlUsd": -0.2098,
-      "entryMark": "MC ~$20.01k → ~$19.59k (−2.1%)",
+      "markPct": -3.9,
+      "unrealizedPnlUsd": -0.3862,
+      "entryMark": "MC ~$20.01k → ~$19.23k (−3.9%)",
       "peakMcUsd": 21293.28,
       "slMcUsd": 14004.59,
       "tp1McUsd": 30009.84,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T17:18:26+02:00",
-      "source": "dexscreener-api",
-      "priceUsd": 1.958e-05,
+      "lastMarkAt": "2026-09-27T17:31:29+02:00",
+      "source": "dexscreener-pair-html",
+      "priceUsd": 1.9233919999999997e-05,
       "pair": "8ot7d5mih1puscx9pPx4z7aYMoxwW68m1cyhh8c95TFe"
-    },
-    {
-      "token": "Middle Buddy",
-      "symbol": "BUDDY",
-      "mint": "J21eW5EW4tXqbANxwnmoe6ZHfGHTPZbX3dU69d1zpump",
-      "sizeUsd": 3.34,
-      "entryMcUsd": 19645.74,
-      "markMcUsd": 44103.18,
-      "sl": "−30% MC",
-      "tpLadder": [
-        "TP +50",
-        "+100",
-        "+200"
-      ],
-      "invalidation": "standard; soft on-curve / CA off-homepage / RWA-lending soft",
-      "openedAt": "2026-09-27T16:22:14+02:00",
-      "status": "OPEN",
-      "leadId": "LEAD-047",
-      "markPct": 124.5,
-      "unrealizedPnlUsd": 4.158,
-      "entryMark": "MC ~$19.65k → ~$44.10k (+124.5%)",
-      "peakMcUsd": 44103.18,
-      "slMcUsd": 13752.02,
-      "tp1McUsd": 29468.61,
-      "tpHits": [
-        "TP1",
-        "TP2"
-      ],
-      "lastMarkAt": "2026-09-27T17:18:26+02:00",
-      "source": "dexscreener-api",
-      "priceUsd": 4.41e-05,
-      "pair": "7p75kUqoUGgwiGsngnmNUaE5PYEBtVcfN2dHmzs2SfHp"
     }
   ],
   "recentLeads": [
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi",
+      "mint": "multi",
+      "note": "5m mark Alpha 17:31: 031 +3.0% HOLD @ MC ~$39.15k; 043 -16.4% HOLD @ MC ~$9.79k; 045 -0.3% HOLD @ MC ~$14.07k; 046 -3.9% HOLD @ MC ~$19.23k; no closes; open 4; equity 223.93 day +9.07; pause LIFTED; SILENT (no post)",
+      "at": "2026-09-27T17:31:29+02:00",
+      "closes": 0,
+      "silent": true
+    },
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi",
+      "mint": "multi",
+      "note": "5m mark Alpha 17:31: 031 +3.0% HOLD @ MC ~$39.12k; 043 -17.1% HOLD @ MC ~$9.71k; 045 +0.1% HOLD @ MC ~$14.12k; 046 -3.9% HOLD @ MC ~$19.23k; no closes; open 4; equity 223.93 day +9.07; pause LIFTED; SILENT (no post)",
+      "at": "2026-09-27T17:31:12+02:00",
+      "closes": 0,
+      "silent": true
+    },
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi",
+      "mint": "multi",
+      "note": "5m mark Alpha 17:25: 031 +3.0% HOLD @ MC ~$39.12k; 043 -17.1% HOLD @ MC ~$9.71k; 045 -0.7% HOLD @ MC ~$14.01k; 046 +2.1% HOLD @ MC ~$20.43k; 047 +73.2% TRAIL @ MC ~$34.02k; 1 close(s); open 4; equity 223.93 day +9.07; pause LIFTED; POST",
+      "at": "2026-09-27T17:25:36+02:00",
+      "closes": 1,
+      "silent": false
+    },
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi / Middle Buddy",
+      "mint": "multi",
+      "note": "5m mark Alpha 17:22: 031 +3.0% HOLD @ MC ~$39.12k; 043 -17.1% HOLD @ MC ~$9.71k; 045 -0.7% HOLD @ MC ~$14.01k; 046 +2.9% HOLD @ MC ~$20.59k; 047 +101.5% HOLD @ MC ~$39.59k; no closes; open 5; equity 221.49 day +6.63; pause LIFTED; SILENT (no post)",
+      "at": "2026-09-27T17:22:13+02:00",
+      "closes": 0,
+      "silent": true
+    },
     {
       "id": "EXIT-MARK",
       "stage": "mark",
@@ -522,49 +530,9 @@
       "at": "2026-09-27T15:11:29+02:00",
       "closes": 0,
       "silent": true
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 15:02: 031 +5.0% HOLD @ MC ~$39.92k; 043 -13.5% HOLD @ MC ~$10.13k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T15:02:53+02:00",
-      "closes": 0,
-      "silent": true
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 15:01: 031 +5.0% HOLD @ MC ~$39.92k; 043 -13.5% HOLD @ MC ~$10.13k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T15:01:16+02:00",
-      "closes": 0,
-      "silent": true
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 14:56: 031 +5.0% HOLD @ MC ~$39.92k; 043 -13.5% HOLD @ MC ~$10.13k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T14:56:27+02:00",
-      "closes": 0,
-      "silent": true
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 14:47: 031 +5.0% HOLD @ MC ~$39.91k; 043 -13.6% HOLD @ MC ~$10.13k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T14:47:32+02:00",
-      "closes": 0,
-      "silent": true
     }
   ],
-  "notesFr": "5m mark Alpha 17:18: 031 +3.0% HOLD @ MC ~$39.12k; 043 -15.7% HOLD @ MC ~$9.88k; 045 -1.1% HOLD @ MC ~$13.95k; 046 -2.1% HOLD @ MC ~$19.59k; 047 +124.5% HOLD @ MC ~$44.10k; no closes; open 5; equity 221.49 day +6.63; pause LIFTED; SILENT (no post)",
+  "notesFr": "5m mark Alpha 17:31: 031 +3.0% HOLD @ MC ~$39.15k; 043 -16.4% HOLD @ MC ~$9.79k; 045 -0.3% HOLD @ MC ~$14.07k; 046 -3.9% HOLD @ MC ~$19.23k; no closes; open 4; equity 223.93 day +9.07; pause LIFTED; SILENT (no post)",
   "maxOpenPositions": 8,
   "fillsPauseAtOpen": 8,
   "fillsLiftAtOpen": 7,
