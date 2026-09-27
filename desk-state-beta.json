@@ -20,10 +20,10 @@
       "mint": "EEpng77ZPn9FbgbT4xsRjwuxNCcMBYq3HTwEscyTpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 304552.0,
-      "markMcUsd": 360952.807154448,
-      "markPct": 18.52,
-      "unrealizedPnlUsd": 1.8519,
-      "priceUsd": 0.0003687053674,
+      "markMcUsd": 368502.0,
+      "markPct": 21.0,
+      "unrealizedPnlUsd": 2.0998,
+      "priceUsd": 0.0003764167021410586,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -34,12 +34,12 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T20:09:40+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$304.55k → ~$360.95k (+18.52%)",
+      "entryMark": "MC ~$304.55k → ~$368.5k (+21.00%)",
       "peakMcUsd": 395566.0,
-      "lastMarkAt": "2026-09-27T12:00+02:00",
+      "lastMarkAt": "2026-09-27T12:07+02:00",
       "tpHits": [],
       "slMcUsd": 213186.4,
-      "source": "geckoterminal-token",
+      "source": "dexscreener-html",
       "lastDecision": "HOLD"
     },
     {
@@ -48,10 +48,10 @@
       "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 2491436.0,
-      "markMcUsd": 2410279.0,
-      "markPct": -3.26,
-      "unrealizedPnlUsd": -0.3257,
-      "priceUsd": 0.00241,
+      "markMcUsd": 2406096.0,
+      "markPct": -3.43,
+      "unrealizedPnlUsd": -0.3425,
+      "priceUsd": 0.002405817484199962,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -62,12 +62,12 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T21:06:51+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$2.49M → ~$2.41M (-3.26%)",
+      "entryMark": "MC ~$2.49M → ~$2.41M (-3.43%)",
       "peakMcUsd": 2656120.0,
-      "lastMarkAt": "2026-09-27T12:00+02:00",
+      "lastMarkAt": "2026-09-27T12:07+02:00",
       "tpHits": [],
       "slMcUsd": 1744005.2,
-      "source": "dexscreener-api",
+      "source": "dexscreener-html",
       "lastDecision": "HOLD"
     },
     {
@@ -76,10 +76,10 @@
       "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
       "sizeUsd": 10.0,
       "entryMcUsd": 49105796.34620464,
-      "markMcUsd": 49501339.762122,
-      "markPct": 0.81,
-      "unrealizedPnlUsd": 0.0805,
-      "priceUsd": 0.04955710380950558,
+      "markMcUsd": 50185917.6738002,
+      "markPct": 2.2,
+      "unrealizedPnlUsd": 0.22,
+      "priceUsd": 0.05024885768,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -90,12 +90,12 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T21:29:40+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$49.11M → ~$49.5M (+0.81%)",
+      "entryMark": "MC ~$49.11M → ~$50.19M (+2.20%)",
       "peakMcUsd": 50283355.0,
-      "lastMarkAt": "2026-09-27T12:00+02:00",
+      "lastMarkAt": "2026-09-27T12:07+02:00",
       "tpHits": [],
       "slMcUsd": 34374057.44,
-      "source": "raydium-price-scaled",
+      "source": "geckoterminal-token",
       "lastDecision": "HOLD"
     },
     {
@@ -122,8 +122,8 @@
       "entryMark": "MC ~$1.31M → ~$1.35M (+2.88%)",
       "peakMcUsd": 1350306.0,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T12:00+02:00",
-      "source": "dexscreener-api",
+      "lastMarkAt": "2026-09-27T12:07+02:00",
+      "source": "dexscreener-html",
       "lastDecision": "HOLD"
     }
   ],
@@ -134,7 +134,7 @@
     "wins": 0,
     "losses": 0
   },
-  "updatedAt": "2026-09-27T12:00+02:00",
+  "updatedAt": "2026-09-27T12:07+02:00",
   "pipeline": {
     "filled": [
       "B-LEAD-001",
@@ -151,5 +151,5 @@
     ],
     "queueNote": "CLEAR 8 $URO — no greenlight while open≥4; fill when open≤3"
   },
-  "notesFr": "5m mark 2026-09-27T12:00+02:00: B-LEAD-001 HeeHaw +18.52% HOLD @ MC ~$360.95k; B-LEAD-007 WOJAK -3.26% HOLD @ MC ~$2.41M; B-LEAD-011 TROLL +0.81% HOLD @ MC ~$49.5M; B-LEAD-012 401jk +2.88% HOLD @ MC ~$1.35M; open 4/4; day +0.00"
+  "notesFr": "5m mark 2026-09-27T12:07+02:00: B-LEAD-001 HeeHaw +21.00% HOLD @ MC ~$368.5k; B-LEAD-007 WOJAK -3.43% HOLD @ MC ~$2.41M; B-LEAD-011 TROLL +2.20% HOLD @ MC ~$50.19M; B-LEAD-012 401jk +2.88% HOLD @ MC ~$1.35M; open 4/4; day +0.00"
 }
