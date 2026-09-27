@@ -1,6 +1,6 @@
 {
   "mode": "PAPER",
-  "updatedAt": "2026-09-27T18:29:01+02:00",
+  "updatedAt": "2026-09-27T18:41:27+02:00",
   "equityUsd": 220.83,
   "startingEquityUsd": 200.0,
   "dayPnlUsd": 5.97,
@@ -16,7 +16,7 @@
     "losses": 4,
     "winRateApprox": 0.64,
     "wins": 0,
-    "lastMarkNote": "5m mark Alpha 18:29: 031 +3.2% HOLD @ MC ~$39.21k; 043 -12.1% HOLD @ MC ~$10.30k; 045 +15.2% HOLD @ MC ~$16.26k; 046 -16.2% HOLD @ MC ~$16.77k; LEAD-048 Museworld SL already closed −3.10 @ −31.0% this slot; open 4; equity 220.83 day +5.97; pause LIFTED; POST (handoff repair)",
+    "lastMarkNote": "5m mark Alpha 18:41: 031 +3.2% HOLD @ MC ~$39.21k; 043 -11.2% HOLD @ MC ~$10.40k; 045 +15.2% HOLD @ MC ~$16.25k; 046 -17.5% HOLD @ MC ~$16.50k; no closes; open 4; equity 220.83 day +5.97; pause LIFTED; SILENT (no post)",
     "openCount": 4
   },
   "openPositions": [
@@ -33,13 +33,16 @@
       "slMcUsd": 26600.0,
       "markPct": 3.2,
       "peakMcUsd": 39988.33,
-      "unrealizedPnlUsd": 0.32,
+      "unrealizedPnlUsd": 0.3196,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T18:29:01+02:00",
+      "lastMarkAt": "2026-09-27T18:41:27+02:00",
       "source": "dexscreener-html",
-      "priceUsd": 3.921e-05,
+      "priceUsd": 3.9214330000000004e-05,
       "pair": "9oTS5AddNZ9KsguigxUyCLWnbkKGzX22RJTQrVJ5dF9F",
-      "entryMark": "MC ~$38k → ~$39.21k (+3.2%)"
+      "entryMark": "MC ~$38k → ~$39.21k (+3.2%)",
+      "openedAt": "2026-09-24T19:54:00+02:00",
+      "invalidation": "standard",
+      "sl": "−30% MC"
     },
     {
       "leadId": "LEAD-043",
@@ -47,20 +50,23 @@
       "mint": "CsMWsYUniqFbzCA4aUc12iEMii8KBaeesFJXTvUtpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 11710.0,
-      "markMcUsd": 10297.62,
+      "markMcUsd": 10402.3406629622,
       "pnlPct": -12.1,
       "slPct": -30,
       "status": "OPEN",
       "slMcUsd": 8197.0,
-      "markPct": -12.1,
+      "markPct": -11.2,
       "peakMcUsd": 16418.27,
-      "unrealizedPnlUsd": -1.21,
+      "unrealizedPnlUsd": -1.1167,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T18:29:01+02:00",
-      "source": "dexscreener-html",
-      "priceUsd": 1.029e-05,
+      "lastMarkAt": "2026-09-27T18:41:27+02:00",
+      "source": "geckoterminal",
+      "priceUsd": 1.040234066e-05,
       "pair": "FKwAGKxnLsUizdSYGSofaH7T8ytLmfjUAcYKaJNP7MVu",
-      "entryMark": "MC ~$11.71k → ~$10.30k (−12.1%)"
+      "entryMark": "MC ~$11.71k → ~$10.40k (−11.2%)",
+      "openedAt": "2026-09-26T22:55:00+02:00",
+      "invalidation": "standard; soft on-curve / realSOL~26",
+      "sl": "−30% MC"
     },
     {
       "leadId": "LEAD-045",
@@ -68,20 +74,23 @@
       "mint": "67ZPDUDL29wxQamKs29ESb5e9qTnpQpUkZgjv8qJpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 14110.0,
-      "markMcUsd": 16260.05,
+      "markMcUsd": 16249.35,
       "pnlPct": 15.2,
       "slPct": -30,
       "status": "OPEN",
       "slMcUsd": 9877.0,
       "markPct": 15.2,
       "peakMcUsd": 16919.8,
-      "unrealizedPnlUsd": 1.52,
+      "unrealizedPnlUsd": 1.5162,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T18:29:01+02:00",
+      "lastMarkAt": "2026-09-27T18:41:27+02:00",
       "source": "dexscreener-html",
-      "priceUsd": 1.626e-05,
+      "priceUsd": 1.624935e-05,
       "pair": "GqBESvHwmRHbiYdBh8LhBMqQNDbrefebcX25p5zbRpTT",
-      "entryMark": "MC ~$14.11k → ~$16.26k (+15.2%)"
+      "entryMark": "MC ~$14.11k → ~$16.25k (+15.2%)",
+      "openedAt": "2026-09-27T15:55:00+02:00",
+      "invalidation": "standard; soft on-curve / realSOL~30.6",
+      "sl": "−30% MC"
     },
     {
       "leadId": "LEAD-046",
@@ -89,23 +98,56 @@
       "mint": "G4zJATx1sgRCp4kMqxd8dnDPtyK6Qqe6a9XHL7avpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 20010.0,
-      "markMcUsd": 16770.6,
+      "markMcUsd": 16502.73,
       "pnlPct": -16.2,
       "slPct": -30,
       "status": "OPEN",
       "slMcUsd": 14007.0,
-      "markPct": -16.2,
+      "markPct": -17.5,
       "peakMcUsd": 21293.28,
-      "unrealizedPnlUsd": -1.62,
+      "unrealizedPnlUsd": -1.7528,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T18:29:01+02:00",
+      "lastMarkAt": "2026-09-27T18:41:27+02:00",
       "source": "dexscreener-html",
-      "priceUsd": 1.677e-05,
+      "priceUsd": 1.6502730000000003e-05,
       "pair": "8ot7d5mih1puscx9pPx4z7aYMoxwW68m1cyhh8c95TFe",
-      "entryMark": "MC ~$20.01k → ~$16.77k (−16.2%)"
+      "entryMark": "MC ~$20.01k → ~$16.50k (−17.5%)",
+      "openedAt": "2026-09-27T16:22:00+02:00",
+      "invalidation": "standard; soft on-curve / CA off-homepage",
+      "sl": "−30% MC"
     }
   ],
   "recentLeads": [
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi",
+      "mint": "multi",
+      "note": "5m mark Alpha 18:41: 031 +3.2% HOLD @ MC ~$39.21k; 043 -11.2% HOLD @ MC ~$10.40k; 045 +15.2% HOLD @ MC ~$16.25k; 046 -17.5% HOLD @ MC ~$16.50k; no closes; open 4; equity 220.83 day +5.97; pause LIFTED; SILENT (no post)",
+      "at": "2026-09-27T18:41:27+02:00",
+      "closes": 0,
+      "silent": true
+    },
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi",
+      "mint": "multi",
+      "note": "5m mark Alpha 18:37: 031 +3.2% HOLD @ MC ~$39.21k; 043 -12.1% HOLD @ MC ~$10.30k; 045 +15.2% HOLD @ MC ~$16.26k; 046 -16.5% HOLD @ MC ~$16.71k; no closes; open 4; equity 220.83 day +5.97; pause LIFTED; SILENT (no post)",
+      "at": "2026-09-27T18:37:06+02:00",
+      "closes": 0,
+      "silent": true
+    },
+    {
+      "id": "EXIT-MARK",
+      "stage": "mark",
+      "token": "VortexDeployer / Every Market / Slips / spawndigi",
+      "mint": "multi",
+      "note": "5m mark Alpha 18:33: 031 +3.2% HOLD @ MC ~$39.21k; 043 -12.1% HOLD @ MC ~$10.30k; 045 +15.2% HOLD @ MC ~$16.26k; 046 -16.5% HOLD @ MC ~$16.71k; no closes; open 4; equity 220.83 day +5.97; pause LIFTED; SILENT (no post)",
+      "at": "2026-09-27T18:33:06+02:00",
+      "closes": 0,
+      "silent": true
+    },
     {
       "id": "EXIT-MARK",
       "stage": "mark",
@@ -475,42 +517,15 @@
       "at": "2026-09-27T16:26:59+02:00",
       "closes": 0,
       "silent": true
-    },
-    {
-      "leadId": "LEAD-046",
-      "token": "spawndigi",
-      "mint": "G4zJATx1sgRCp4kMqxd8dnDPtyK6Qqe6a9XHL7avpump",
-      "stage": "paper-filled",
-      "at": "2026-09-27T16:22:14+02:00",
-      "sizeUsd": 10.0,
-      "entryMcUsd": 20006.56
-    },
-    {
-      "leadId": "LEAD-047",
-      "token": "Middle Buddy",
-      "mint": "J21eW5EW4tXqbANxwnmoe6ZHfGHTPZbX3dU69d1zpump",
-      "stage": "paper-filled",
-      "at": "2026-09-27T16:22:14+02:00",
-      "sizeUsd": 10.0,
-      "entryMcUsd": 19645.74
-    },
-    {
-      "leadId": "LEAD-048",
-      "token": "Museworld",
-      "mint": "FrwsvsQJ6b9z64gDom4vVDsVqCtSXAdLPaYkgv35pump",
-      "stage": "paper-filled",
-      "at": "2026-09-27T18:25:10+02:00",
-      "sizeUsd": 10.0,
-      "entryMcUsd": 7440.47
     }
   ],
-  "notesFr": "5m mark Alpha 18:29: 031 +3.2% HOLD @ MC ~$39.21k; 043 -12.1% HOLD @ MC ~$10.30k; 045 +15.2% HOLD @ MC ~$16.26k; 046 -16.2% HOLD @ MC ~$16.77k; LEAD-048 Museworld SL already closed −3.10 @ −31.0% this slot; open 4; equity 220.83 day +5.97; pause LIFTED; POST (handoff repair)",
+  "notesFr": "5m mark Alpha 18:41: 031 +3.2% HOLD @ MC ~$39.21k; 043 -11.2% HOLD @ MC ~$10.40k; 045 +15.2% HOLD @ MC ~$16.25k; 046 -17.5% HOLD @ MC ~$16.50k; no closes; open 4; equity 220.83 day +5.97; pause LIFTED; SILENT (no post)",
   "maxOpenPositions": 8,
   "fillsPauseAtOpen": 8,
   "fillsLiftAtOpen": 7,
   "lane": "Alpha",
   "laneLabel": "Memecoin Desk Alpha",
-  "lastMarkTs": "2026-09-27T18:29:01+02:00",
-  "lastMarkSilent": false,
-  "lastMarkNote": "5m mark Alpha 18:29: 031 +3.2% HOLD @ MC ~$39.21k; 043 -12.1% HOLD @ MC ~$10.30k; 045 +15.2% HOLD @ MC ~$16.26k; 046 -16.2% HOLD @ MC ~$16.77k; LEAD-048 Museworld SL already closed −3.10 @ −31.0% this slot; open 4; equity 220.83 day +5.97; pause LIFTED; POST (handoff repair)"
+  "lastMarkTs": "2026-09-27T18:41:27+02:00",
+  "lastMarkSilent": true,
+  "lastMarkNote": "5m mark Alpha 18:41: 031 +3.2% HOLD @ MC ~$39.21k; 043 -11.2% HOLD @ MC ~$10.40k; 045 +15.2% HOLD @ MC ~$16.25k; 046 -17.5% HOLD @ MC ~$16.50k; no closes; open 4; equity 220.83 day +5.97; pause LIFTED; SILENT (no post)"
 }
