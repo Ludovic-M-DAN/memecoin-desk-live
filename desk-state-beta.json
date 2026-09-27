@@ -20,10 +20,10 @@
       "mint": "EEpng77ZPn9FbgbT4xsRjwuxNCcMBYq3HTwEscyTpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 304552.0,
-      "markMcUsd": 360284.0,
-      "markPct": 18.3,
-      "unrealizedPnlUsd": 1.83,
-      "priceUsd": 0.00036794335243937935,
+      "markMcUsd": 360200.0,
+      "markPct": 18.27,
+      "unrealizedPnlUsd": 1.8272,
+      "priceUsd": 0.0003678575666659203,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -34,9 +34,9 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T20:09:40+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$304.55k → ~$360.28k (+18.30%)",
+      "entryMark": "MC ~$304.55k → ~$360.2k (+18.27%)",
       "peakMcUsd": 395566.0,
-      "lastMarkAt": "2026-09-27T16:53+02:00",
+      "lastMarkAt": "2026-09-27T16:54+02:00",
       "tpHits": [],
       "slMcUsd": 213186.4,
       "source": "dexscreener-html+scale-price",
@@ -48,10 +48,10 @@
       "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 2491436.0,
-      "markMcUsd": 2526566.0,
-      "markPct": 1.41,
-      "unrealizedPnlUsd": 0.141,
-      "priceUsd": 0.002526835070507908,
+      "markMcUsd": 2527110.0,
+      "markPct": 1.43,
+      "unrealizedPnlUsd": 0.1432,
+      "priceUsd": 0.0025273791284420193,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -62,9 +62,9 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T21:06:51+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$2.49M → ~$2.53M (+1.41%)",
+      "entryMark": "MC ~$2.49M → ~$2.53M (+1.43%)",
       "peakMcUsd": 2656120.0,
-      "lastMarkAt": "2026-09-27T16:53+02:00",
+      "lastMarkAt": "2026-09-27T16:54+02:00",
       "tpHits": [],
       "slMcUsd": 1744005.2,
       "source": "dexscreener-html+scale-price",
@@ -76,10 +76,10 @@
       "mint": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
       "sizeUsd": 10.0,
       "entryMcUsd": 49105796.34620464,
-      "markMcUsd": 48253724.0,
-      "markPct": -1.74,
-      "unrealizedPnlUsd": -0.1735,
-      "priceUsd": 0.048312601654048215,
+      "markMcUsd": 48201628.0,
+      "markPct": -1.84,
+      "unrealizedPnlUsd": -0.1841,
+      "priceUsd": 0.048260442088171616,
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -90,9 +90,9 @@
       "invalidation": "standard",
       "openedAt": "2026-09-26T21:29:40+02:00",
       "status": "OPEN",
-      "entryMark": "MC ~$49.11M → ~$48.25M (-1.74%)",
+      "entryMark": "MC ~$49.11M → ~$48.2M (-1.84%)",
       "peakMcUsd": 50375198.0,
-      "lastMarkAt": "2026-09-27T16:53+02:00",
+      "lastMarkAt": "2026-09-27T16:54+02:00",
       "tpHits": [],
       "slMcUsd": 34374057.44,
       "source": "dexscreener-html+scale-price",
@@ -122,7 +122,7 @@
       "entryMark": "MC ~$1.31M → ~$1.32M (+0.82%)",
       "peakMcUsd": 1350306.0,
       "tpHits": [],
-      "lastMarkAt": "2026-09-27T16:53+02:00",
+      "lastMarkAt": "2026-09-27T16:54+02:00",
       "source": "dexscreener-html+scale-price",
       "lastDecision": "HOLD"
     }
@@ -134,7 +134,7 @@
     "wins": 0,
     "losses": 0
   },
-  "updatedAt": "2026-09-27T16:53+02:00",
+  "updatedAt": "2026-09-27T16:54+02:00",
   "pipeline": {
     "filled": [
       "B-LEAD-001",
@@ -152,5 +152,5 @@
     ],
     "queueNote": "CLEAR queue: B-LEAD-013 $URO then B-LEAD-016 FORK — no greenlight while open>=4; fill when open<=3"
   },
-  "notesFr": "5m mark 2026-09-27T16:53+02:00: B-LEAD-001 HeeHaw +18.30% HOLD @ MC ~$360.28k; B-LEAD-007 WOJAK +1.41% HOLD @ MC ~$2.53M; B-LEAD-011 TROLL -1.74% HOLD @ MC ~$48.25M; B-LEAD-012 401jk +0.82% HOLD @ MC ~$1.32M; open 4/4; day +0.00"
+  "notesFr": "5m mark 2026-09-27T16:54+02:00: B-LEAD-001 HeeHaw +18.27% HOLD @ MC ~$360.2k; B-LEAD-007 WOJAK +1.43% HOLD @ MC ~$2.53M; B-LEAD-011 TROLL -1.84% HOLD @ MC ~$48.2M; B-LEAD-012 401jk +0.82% HOLD @ MC ~$1.32M; open 4/4; day +0.00"
 }
