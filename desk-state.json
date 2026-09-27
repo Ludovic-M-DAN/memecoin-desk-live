@@ -1,10 +1,6 @@
 {
   "mode": "PAPER",
-<<<<<<< HEAD
   "updatedAt": "2026-09-27T11:57:52+02:00",
-=======
-  "updatedAt": "2026-09-27T11:54:40+02:00",
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
   "equityUsd": 214.86,
   "startingEquityUsd": 200.0,
   "dayPnlUsd": 0.0,
@@ -20,11 +16,7 @@
     "losses": 4,
     "winRateApprox": 0.56,
     "wins": 0,
-<<<<<<< HEAD
     "lastMarkNote": "5m mark Alpha 11:57: 031 +5.2% HOLD @ MC ~$39.99k; 043 +16.2% HOLD @ MC ~$13.61k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post); sameAsLast=True; source dexscreener-api; no SL/TP/trail",
-=======
-    "lastMarkNote": "5m mark Alpha 11:54: 031 +5.2% HOLD @ MC ~$39.96k; 043 +17.7% HOLD @ MC ~$13.79k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post); sameAsLast=True; source dexscreener-api; no SL/TP/trail",
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
     "openCount": 2
   },
   "openPositions": [
@@ -33,11 +25,7 @@
       "mint": "Ham46f8JY1CmXqerYPJAZGcXnNhW9LGbuUKT24PKpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 38000.0,
-<<<<<<< HEAD
       "markMcUsd": 39988.3299095006,
-=======
-      "markMcUsd": 39961.2,
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -49,37 +37,22 @@
       "status": "OPEN",
       "leadId": "LEAD-031",
       "markPct": 5.2,
-<<<<<<< HEAD
       "unrealizedPnlUsd": 0.5232,
       "entryMark": "MC ~$38k → ~$39.99k (+5.2%)",
-=======
-      "unrealizedPnlUsd": 0.5161,
-      "entryMark": "MC ~$38k → ~$39.96k (+5.2%)",
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
       "peakMcUsd": 39988.33,
       "slMcUsd": 26600.0,
       "tp1McUsd": 57000.0,
       "tpHits": [],
-<<<<<<< HEAD
       "lastMarkAt": "2026-09-27T11:57:52+02:00",
       "source": "geckoterminal",
       "priceUsd": 3.998832991e-05
-=======
-      "lastMarkAt": "2026-09-27T11:54:40+02:00",
-      "source": "dexscreener",
-      "priceUsd": 3.996e-05
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
     },
     {
       "token": "Every Market",
       "mint": "CsMWsYUniqFbzCA4aUc12iEMii8KBaeesFJXTvUtpump",
       "sizeUsd": 10.0,
       "entryMcUsd": 11714.48,
-<<<<<<< HEAD
       "markMcUsd": 13612.94,
-=======
-      "markMcUsd": 13788.5056731209,
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
       "sl": "−30% MC",
       "tpLadder": [
         "TP +50",
@@ -90,29 +63,17 @@
       "openedAt": "2026-09-26T22:55:06+02:00",
       "status": "OPEN",
       "leadId": "LEAD-043",
-<<<<<<< HEAD
       "markPct": 16.2,
       "unrealizedPnlUsd": 1.6206,
       "entryMark": "MC ~$11.71k → ~$13.61k (+16.2%)",
-=======
-      "markPct": 17.7,
-      "unrealizedPnlUsd": 1.7705,
-      "entryMark": "MC ~$11.71k → ~$13.79k (+17.7%)",
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
       "symbol": "EVERY",
       "peakMcUsd": 16418.27,
       "slMcUsd": 8200.135999999999,
       "tp1McUsd": 17571.72,
       "tpHits": [],
-<<<<<<< HEAD
       "lastMarkAt": "2026-09-27T11:57:52+02:00",
       "source": "dexscreener-html",
       "priceUsd": 1.361294e-05
-=======
-      "lastMarkAt": "2026-09-27T11:54:40+02:00",
-      "source": "geckoterminal",
-      "priceUsd": 1.378850567e-05
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
     }
   ],
   "recentLeads": [
@@ -121,7 +82,6 @@
       "stage": "mark",
       "token": "VortexDeployer / Every Market",
       "mint": "multi",
-<<<<<<< HEAD
       "note": "5m mark Alpha 11:57: 031 +5.2% HOLD @ MC ~$39.99k; 043 +16.2% HOLD @ MC ~$13.61k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
       "at": "2026-09-27T11:57:52+02:00",
       "closes": 0,
@@ -152,8 +112,6 @@
       "stage": "mark",
       "token": "VortexDeployer / Every Market",
       "mint": "multi",
-=======
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
       "note": "5m mark Alpha 11:54: 031 +5.2% HOLD @ MC ~$39.96k; 043 +17.7% HOLD @ MC ~$13.79k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
       "at": "2026-09-27T11:54:40+02:00",
       "closes": 0,
@@ -518,45 +476,9 @@
       "at": "2026-09-27T09:40:00+02:00",
       "closes": 0,
       "silent": true
-<<<<<<< HEAD
     }
   ],
   "notesFr": "5m mark Alpha 11:57: 031 +5.2% HOLD @ MC ~$39.99k; 043 +16.2% HOLD @ MC ~$13.61k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post); sameAsLast=True; source dexscreener-api; no SL/TP/trail",
-=======
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 09:37: 031 +3.0% HOLD @ MC ~$39.15k; 043 +16.3% HOLD @ MC ~$13.63k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T09:37:15+02:00",
-      "closes": 0,
-      "silent": true
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 09:34: 031 +3.0% HOLD @ MC ~$39.15k; 043 +16.3% HOLD @ MC ~$13.62k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T09:34:48+02:00",
-      "closes": 0,
-      "silent": true
-    },
-    {
-      "id": "EXIT-MARK",
-      "stage": "mark",
-      "token": "VortexDeployer / Every Market",
-      "mint": "multi",
-      "note": "5m mark Alpha 09:29: 031 +3.0% HOLD @ MC ~$39.15k; 043 +16.3% HOLD @ MC ~$13.62k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post)",
-      "at": "2026-09-27T09:29:49+02:00",
-      "closes": 0,
-      "silent": true
-    }
-  ],
-  "notesFr": "5m mark Alpha 11:54: 031 +5.2% HOLD @ MC ~$39.96k; 043 +17.7% HOLD @ MC ~$13.79k; no closes; open 2; equity 214.86 day +0.00; pause LIFTED; SILENT (no post); sameAsLast=True; source dexscreener-api; no SL/TP/trail",
->>>>>>> 498887c3eff60fced8cfaad6ae8a27ce4f814b67
   "maxOpenPositions": 8,
   "fillsPauseAtOpen": 8,
   "fillsLiftAtOpen": 7,
